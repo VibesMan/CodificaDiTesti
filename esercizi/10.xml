@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE TEI SYSTEM "tei_all.dtd" >
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Cosa vuol dire davvero "efficacia" per un vaccino?</title>
+        <respStmt>
+          <resp>Codifica TEI a cura di </resp>
+          <name>Francesco Bertoli</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Edizioni Bertoli</publisher>
+        <date when="2020-03-05">5 marzo 2020</date>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <author><name>Sandro Iannaccone</name></author>
+          <publisher>Wired.it</publisher>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+
+  <text>
+
+    <front>
+      <div type="headline">
+        <p>Con l’imminente arrivo di <orgName ref="#JJ">Johnson &#038; Johnson</orgName>, salgono a quattro i vaccini approvati per la somministrazione, ciascuno con una diversa efficacia. Ecco cosa vuol dire e perché i numeri non sono così facilmente comparabili</p>
+      </div>
+    </front>
+
+    <body>
+      <div type="intro">
+        <p><orgName ref="#PF">Pfizer</orgName>-<orgName ref="#BT">BioNTech</orgName> e Moderna quasi perfetti, Oxford-<orgName ref="#AZ">AstraZeneca</orgName> così così, <orgName ref="#JJ">Johnson &#038; Johnson</orgName> potrebbe fare meglio. Guardare i numeri dell’efficacia dei vaccini anti-<term ref="#covid">Covid</term> che abbiamo attualmente a disposizione (e di quelli che arriveranno) può facilmente – e comprensibilmente – portare
+        alla conclusione che esistano dei farmaci di serie A e dei farmaci di serie B. Dimenticando per un momento la questione degli effetti collaterali, è infatti lecito pensare che tra un vaccino la cui efficacia sfiora il 95% e uno cui si ferma al 66% sarebbe tutto sommato preferibile, potendolo
+        fare, scegliere il primo. Come spesso accade, però, le cose sono più complicate di così: il valore dell’efficacia, infatti, va compreso e contestualizzato, e la comparazione brutale dei valori dichiarati dalle aziende produttrici può essere spesso fuorviante e far cadere in errore.</p>
+      </div>
+      <div type="article-paragraphs">
+        <head>Come si misura l’efficacia…</head>
+        <p>L’efficacia dei vaccini anti-<term ref="#covid">Covid</term> è misurata a partire dai risultati dei trial clinici di fase 3 (quelli precedenti, di fase 1 e 2, servono infatti a stabilire soltanto che il candidato vaccino, e più in generale qualsiasi farmaco, è sicuro). I trial di fase 3 funzionano in questo modo: a una metà dei partecipanti viene somministrato un placebo e all’altra metà il candidato vaccino. Dopodiché, i volontari vengono rispediti nel mondo reale e monitorati nel corso dei mesi successivi per contare quanti di loro contraggono la malattia.</p>
+        <p>Prendiamo per esempio il trial clinico di fase 3 condotto da <orgName ref="#PF">Pfizer</orgName>: la sperimentazione comprendeva circa 43mila persone, e dopo la somministrazione del vaccino (o del placebo) 170 di loro hanno contratto la malattia; di questi, 162 facevano parte del gruppo cui era stato somministrato il placebo, e 8 del gruppo cui era stato somministrato il vaccino. È da questi numeri che i ricercatori hanno misurato un’efficacia del 95%. Se tutti i casi si fossero registrati nel gruppo placebo, il vaccino avrebbe avuto un’efficacia del 100%; di converso, se fossero stati equamente distribuiti nei due gruppi, il vaccino avrebbe avuto un’efficacia dello 0%. Il che, tradotto, avrebbe voluto dire che il vaccino non modificava in alcun modo la probabilità di ammalarsi.</p>
+      </div>
+    </body>
+
+    <back>
+      <list type="glossary">
+        <head>Glossario</head>
+        <label>
+          <term xml:lang="it" xml:id="covid" key="">Covid</term>
+        </label>
+        <item>
+          <gloss xml:lang="it" target="#covid">
+            Sigla scientifica dell’ing. COronaVIrusDisease-(20)19 (‘malattia provocata da un virus, appartenente al genere Coronavirus, identificato nel 2019’)
+          </gloss>
+        </item>
+      </list>
+
+      <listOrg>
+        <head>Case farmaceutiche e altre aziende</head>
+        <org type="pharma" xml:id="AZ">
+          <orgName>AstraZeneca</orgName>
+          <desc></desc>
+        </org>
+        <org type="pharma" xml:id="JJ">
+          <orgName>Johnson &#038; Johnson</orgName>
+          <desc></desc>
+        </org>
+        <org type="pharma" xml:id="PF">
+          <orgName>Pfizer</orgName>
+          <desc></desc>
+        </org>
+        <org type="company" xml:id="BT">
+          <orgName>BioNTech</orgName>
+          <desc></desc>
+        </org>
+      </listOrg>
+    </back>
+  </text>
+</TEI>

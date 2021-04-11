@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<text>
+    il primo xml con validazione
+    <text />
+</text>
+
+
+<!-- xmllint restituisce il seguente errore:
+Error:	Extra content at the end of the document	5:1
+
+La correzione effettuata è stata spotare l'elemento vuoto <text /> all'interno del nodo <text> affinché quest'ultimo diventi il nodo radice -->

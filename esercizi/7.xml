@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!DOCTYPE root [
+<!ELEMENT root (header, footer?)>
+<!ELEMENT header (#PCDATA)>
+<!ELEMENT footer (#PCDATA)>
+]
+>
+
+<root>
+  <header>Sono uno header</header>
+</root>
